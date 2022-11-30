@@ -2,14 +2,13 @@ import sys
 import subprocess
 
 subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
-'bs4'])
+'pysimplegui'])
 subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
-'selenium'])
+'matplotlib'])
 subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
 'tqdm'])
 subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
-'requests'])
-subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
-'urllib'])
+'numpy'])
 
 print('All libraries were nicely installed')
+import PySimpleGUI as sg
