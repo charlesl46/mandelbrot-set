@@ -2,7 +2,9 @@
 A plot of mandelbrot's set with both RGB and HSV color codes
 
 ## How to use ?
-1. Download the code and then go to project directory and execute
+
+1. ```python3 pkg_installer.py``` to install all necessary packages
+2. Download the code and then go to project directory and execute
 ```
 python3 mandelbrot_gui.py
 ```
